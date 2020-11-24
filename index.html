@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>LOGO</h1>
+        
+  </button>
+        <nav>
+            <ul>
+            <li class="nav__links"><a href="#">Home</a></li>
+            <li class="nav__links"><a href="#">About</a></li>            
+            <li class="nav__links"><a href="#">Services</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Contact</button></a>
+    </header>
+<script type="text/JavaScript">
+        window.addEventListener("scroll" ,function() {
+    let header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
+    </script>
+</body>
+</html>
